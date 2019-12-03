@@ -1,0 +1,54 @@
+.jumbotron{
+	background-image: url("img/home_img.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 0px;
+}
+
+.logo_brand{
+	max-height: 60px;
+}
+
+.icon{
+	max-width: 100%;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+@media {
+	.footer_center{
+		text-align: center;
+	}
+
+	.image_section{
+		width: 60%;
+	}
+}
+
+@media (min-width: 768px) {
+  	.footer_center{
+    text-align: left;
+  }
+
+	.image_section{
+		width: 80%;
+	}
+
+h3{
+	font-size: 1rem;
+}
+}
+
+@media (min-width: 992px){
+	h3{
+		font-size: 1.5rem;
+	}
+}
